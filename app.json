@@ -1,4 +1,3 @@
-
 {
   "expo": {
     "name": "Royale Rewards",
@@ -7,15 +6,23 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.mk5743112.royalerewards",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
-    },
-    "ios": {
-      "supportsTablet": true
+      },
+      "package": "com.mk5743112.royalerewards"
     }
   }
 }
