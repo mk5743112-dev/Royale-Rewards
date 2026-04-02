@@ -3,11 +3,29 @@
     "name": "Royale Rewards",
     "slug": "royale-rewards",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.mohsin.royalerewards",
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-4984608469615875~9534450550"
-      }
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mk5743112.royalerewards"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
