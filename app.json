@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Royale Rewards",
+    "slug": "royale-rewards",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.mohsin.royalerewards",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4984608469615875~9534450550"
+      }
+    }
+  }
+}
