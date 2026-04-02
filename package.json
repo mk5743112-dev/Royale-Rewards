@@ -1,0 +1,9 @@
+{
+  "name": "royale-rewards",
+  "version": "1.0.0",
+  "dependencies": {
+    "expo": "~50.0.0",
+    "react-native": "0.73.4",
+    "react-native-google-mobile-ads": "12.3.0"
+  }
+}
