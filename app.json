@@ -1,19 +1,12 @@
 {
   "expo": {
-    "name": "Royale Rewards",
-    "slug": "royale-rewards",
+    "name": "Royal Rewards",
+    "slug": "royal-rewards",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "backgroundColor": "#ffffff"
-    },
     "android": {
-      "package": "com.royalerewards.app"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "3ab414a8-4691-45a9-89a9-97eb7781a093"
+      "package": "com.mohsin.royalrewards",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-4931252110594348~9992010834"
       }
     }
   }
