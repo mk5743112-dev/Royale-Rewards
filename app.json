@@ -22,7 +22,12 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mk5743112.royalerewards"
+      "package": "com.royalerewards.app"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "यहाँ_अपनी_नई_Project_ID_पेस्ट_करें"
+      }
     }
   }
 }
