@@ -4,9 +4,11 @@
     "slug": "royal-rewards",
     "version": "1.0.0",
     "android": {
-      "package": "com.mohsin.royalrewards",
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-4931252110594348~9992010834"
+      "package": "com.mohsin.royalrewards"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
       }
     }
   }
