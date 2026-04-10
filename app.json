@@ -1,13 +1,41 @@
 {
   "expo": {
-    "name": "Royal Rewards",
-    "slug": "royal-rewards",
+    "name": "Number Slide Puzzle",
+    "slug": "number-slide-puzzle",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A192F"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.puzzle"
+    },
     "android": {
-      "package": "com.mohsin.royalrewards",
-      "config": {
-        "googleMobileAdsAppId": "ca-app-pub-4931252110594348~9992010834"
-      }
-    }
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A192F"
+      },
+      "package": "com.yourcompany.puzzle"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-4931252110594348~9992010834",
+          "iosAppId": "ca-app-pub-4931252110594348~9992010834"
+        }
+      ]
+    ]
   }
 }
